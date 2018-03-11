@@ -43,6 +43,7 @@ function arrayProjection() {
     videoIdAndTitle.push({ id: video.id, title: video.title });
   });
   
+  return videoIdAndTitle;
   console.log('New Array (projection)--->', videoIdAndTitle);
 }
 
